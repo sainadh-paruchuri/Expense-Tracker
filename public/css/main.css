@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: small;
+}
+.header{
+    background-color: #024302;
+    color: white;
+    height: 5rem;
+
+}
+.title{
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.expense-form{
+    display: flex;
+    
+}
+.card{
+    margin-top: 2rem;
+}
+label{
+    font-size: large;
+   padding-right: 0.4rem;
+   padding-left: 0.4rem;
+}
+input,select{
+    width: 20%;
+    border-radius: 5px;
+}
+.expense-forms{
+    margin-left: 0.6rem;
+    width: 10%;
+    font-weight: 600;
+    font-size: medium;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.expense-forms:hover{
+    background-color: #024302;
+    color: white;
+    
+}
+.users{
+    margin-top: 2rem;
+}
+li{
+    font-size: large;
+    list-style: none;
+    margin-top: 10px;
+}
+.delete{
+    margin:0rem 1rem;
+    width: 6rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.edit{
+     width: 6rem;
+     background-color: white;
+     border-radius: 5px;
+}
+.delete:hover{
+    color: white;
+    background-color: #f30909;
+
+}
+.edit:hover {
+    color: white;
+    background-color:#024302;
+
+}
